@@ -1,0 +1,163 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: rgb(60, 54, 89);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2, p {
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+p, label, h2, legend {
+    color: rgb(60, 54, 89);
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.label-1 {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.bold1 {
+    width: 90%;
+    border: 2px solid rgb(60, 54, 89);
+    margin: 3px;
+    align-self: center;
+}
+
+.bold2 {
+    width: 90%;
+    margin: 3px;
+    align-self: center;
+    border-color: rgb(60, 54, 89);
+}
+
+fieldset, input {
+    border: 0;
+}
+
+.input-1, select {
+    background: rgb(241, 241, 241);
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+}
+
+#code {
+    width: 50%;
+}
+
+input:focus {
+    outline: 2px solid rgb(60, 54, 89);
+}
+
+select:focus {
+    outline: 2px solid rgb(60, 54, 89);
+}
+
+textarea:focus {
+    outline: 2px solid rgb(60, 54, 89);
+}
+
+.newsletter {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(241, 241, 241);
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 93%;
+    height: 65px;
+    background-color: rgb(2, 201, 151);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.footer_text {
+    font-style: italic;
+}
+
+
+/* at 768px */
+@media (min-width: 768px) {
+    .center {
+        margin: auto;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
+        display: flex;
+    }
+    
+    label {
+        margin-right: auto;
+    }
+
+    .input-1,select {
+        width: 60%;
+        margin-left: auto;
+        align-self: flex-end;
+    }
+
+    select {
+        width: 60%;
+    }
+
+    #code {
+        width: 25%;
+        margin-right: auto;
+        margin-left: -7%;
+    }
+}
